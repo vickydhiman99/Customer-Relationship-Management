@@ -1,0 +1,19 @@
+.css-jh47zj-MuiButtonBase-root-MuiButton-root {
+    text-transform: none !important;
+}
+
+.tab-temp:focus , .tab-temp:hover{
+background-color: white ;
+color: brown;
+border-bottom:1.3px solid brown;
+}
+
+.create-btn{
+    text-transform:capitalize !important;
+    white-space:nowrap !important;
+    background-color: #414141 !important;
+}
+.create-btn:hover{
+    background-color: #414141 !important;
+
+}

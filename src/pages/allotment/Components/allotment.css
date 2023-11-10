@@ -1,0 +1,21 @@
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 12.5px 14px !important;
+}
+#demo-simple-select-label{
+    align-items: center !important;
+    text-align: center !important;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 12.5px 14px !important;
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    height: 90% !important;
+    margin-top: 5% !important;
+}
+.hidescroll{
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.hidescroll::-webkit-scrollbar {
+    display: none;
+  }

@@ -1,0 +1,21 @@
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #AA3F1D !important;
+}
+
+
+.main-modal {
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(178, 178, 178, 0.25);
+}
+.main-modal-delet{
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(178, 178, 178, 0.25);
+}

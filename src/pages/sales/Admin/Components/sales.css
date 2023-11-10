@@ -1,0 +1,160 @@
+.sales {
+  color: var(--primary-colour-g-7, #b8b8b8);
+  /* Subheading/S1 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+ 
+}
+.Top {
+  color: var(--primary-colour-g-2, #525050);
+  /* BodyTextParagraph/B1 */
+  font-family: Lato;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  /* margin-top: 20px; */
+  padding: 8px;
+  line-height: 21px; /* 150% */
+}
+
+.date {
+  border-radius: 6px;
+  border: 0.5px solid var(--primary-colour-g-3, #666);
+}
+
+.Executives {
+  color: var(--secondary-color-shades-s-4, #aa3f1d);
+  /* Subheading/S1 */
+  font-family: Roboto;
+  width: 100px;
+  border-bottom: 3px solid #aa3f1d !important ;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 130% */
+}
+
+.Completed {
+  color: var(--secondary-color-shades-s-4, #aa3f1d);
+  /* text-align: center; */
+  /* BodyTextParagraph/B2 */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.Employeetable {
+  color: var(--primary-colour-g-2, #525050) !important;
+  /* text-align: center; */
+  /* BodyTextParagraph/B1 */
+  font-family: Lato;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 21px; /* 150% */
+}
+
+.manish {
+  color: var(--primary-colour-g-1, #3d3b3b) !important;
+  font-family: Roboto !important;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31.2px; /* 130% */
+}
+.subh {
+  color: var(--primary-colour-g-1, #3d3b3b) !important;
+  font-family: Roboto !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+}
+
+.Time {
+  color: #585353;
+
+  font-family: Lato !important;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 8px !important;
+}
+
+.min {
+  color: #000;
+
+  font-family: Lato !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600 !important;
+  /* margin-top: 8px !important; */
+}
+.lasta {
+  color: #686464;
+
+  font-family: Lato;
+  font-size: 13px !important;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Lead {
+  color: #000;
+
+  font-family: Lato;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+}
+
+.Emaillead {
+  color: var(--primary-colour-g-5, #8f8f8f);
+  font-family: Lato !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 8px !important;
+}
+.Emailid{
+    color: var(--primary-colour-g-1, #3D3B3B);
+/* BodyTextParagraph/B1 */
+font-family: Lato !important;
+font-size: 16px !important;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.selectlist{
+    border:none !important;
+    outline:none !important
+}
+
+.lastaa{
+    color: #686464;
+
+    font-family: Lato;
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.vl{
+    border-left: 1px solid #E0E0E0;
+  height: 40px;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border-color:1px solid white !important;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+ border-color:unset !important;
+}

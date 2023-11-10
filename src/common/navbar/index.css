@@ -1,0 +1,371 @@
+.main-navbar {
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.main-navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav-button {
+  margin-right: -100px;
+  color: #c70039;
+}
+
+
+.main-change-background-color {
+  animation: changeColor 0.6s forwards ease-in-out;
+  background-color: white;
+}
+
+.main-animated-button1 {
+  background: linear-gradient(-30deg, #900c3f 50%, #c70039 50%);
+  padding: 2px 8px !important;
+  margin-left: 0px !important;
+}
+
+.main-navbar-buttons {
+  margin-top: 5%;
+  margin-right: 10px;
+}
+
+
+.main-navbar-flex {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main-navabar-toll-free {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.main-navabar-toll-free p {
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+
+  font-size: 10px;
+}
+
+
+.main-navbar-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.main-navbar-images .main-navbar-logo1 {
+  width: 250px;
+}
+
+.main-navbar-logo2 {
+  width: 135px;
+
+}
+
+.main-navbar-logo3 {
+  width: 50px;
+  height: 30px;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-navbar-logo4 {
+  margin-left: 10px;
+  width: 50px;
+  height: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main-navbar-logo5{
+  margin-left: 10px;
+  width: 50px;
+  height: 30px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.main-navbar-logo9{
+  margin-left: 30px;
+  margin-top: -15px;
+  width: 90px;
+  /* height: 60px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.main-navbar-logo6{
+  margin-left: 5px;
+  width: 50px;
+  height: 30px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.logo-margin{
+  margin: 5px;
+  justify-items: center;
+}
+
+.japan-font {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+
+}
+.japan-fonts {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.norway-font {
+  margin-left: 10px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.icon {
+  background-color: white;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+  .japan-font {
+    font-size: 8px;
+    text-align: center;
+    font-weight: 400;
+
+  }
+  .japan-fonts {
+    font-size: 4px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .norway-font {
+    margin-left: 10px;
+    font-size: 8px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+
+  .main-navbar-images .main-navbar-logo1 {
+    width: 180px;
+    margin-left: -25px;
+  }
+
+  .main-navbar-logo2 {
+    width: 100px;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .main-navbar-logo9 {
+    margin-left: 11px;
+    margin-top: -11px;
+    width: 60px;
+  }
+  .main-navbar-logo3 {
+    width: 30px;
+    height: 21px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.main-navbar-logo5 {
+  margin-left: 10px;
+  width: 30px;
+  height: 21px;
+  /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); */
+}
+.main-navbar-logo2 {
+  width: 90px;
+}
+.logo-margin {
+  margin: 0px;
+  justify-items: center;
+}
+.main-navbar-images .main-navbar-logo1 {
+  width: 180px;
+  margin-left: -38px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 540px) {
+
+  .main-navbar-logo3 {
+    width: 30px;
+    height: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.main-navbar-logo5{
+  width: 30px;
+    height: 20px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.logo-margin{
+  margin: 2px;
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+  .japan-font {
+    font-size: 6px;
+    text-align: center;
+    font-weight: 400;
+
+  }
+
+  .norway-font {
+    margin-left: 10px;
+    font-size: 6px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .main-navbar-logo3 {
+    width: 19px;
+    height: 12px;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .main-navbar-logo5{
+    width: 19px;
+    height: 12px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+  .main-navbar-logo9{
+    /* padding-left: -22px; */
+    width: 42px;
+    margin-top: -5px;
+    margin-right: 14px;  
+    /* height: 36px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+
+  .main-navbar {
+    height: 80px;
+  }
+
+  .main-navabar-toll-free p {
+    font-size: 7px;
+    font-weight: 600;
+
+  }
+
+
+  .main-navbar-images .main-navbar-logo1 {
+    width: 104px;
+    margin-left: -39px;
+}
+
+  .main-navbar-logo2 {
+    width: 52px;
+
+  }
+
+  .main-navbar-buttons {
+    margin-top: 4%;
+    margin-right: 5px;
+
+  }
+
+  .main-animated-button1 {
+
+    padding: 2px 4px !important;
+    min-width: 50px !important;
+    font-size: 10px !important;
+  }
+
+  .download-logo {
+    color: "red";
+    cursor: "pointer";
+    margin-Left: 20;
+    font-size: 5px
+  }
+  .logo-margin{
+    margin: -3px;
+  }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+  .main-navbar-logo3 {
+    width: 10px;
+    height: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .main-navbar-logo5{
+    width: 10px;
+    height: 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+
+  .japan-font {
+    font-size: 6px;
+    text-align: center;
+    font-weight: 400;
+
+  }
+
+  .main-navbar {
+    height: 50px;
+  }
+
+  .main-navabar-toll-free p {
+    font-size: 8px;
+
+  }
+
+
+  .main-navbar-images .main-navbar-logo1 {
+    width: 120px;
+    margin-left: -35px;
+  }
+
+  .main-navbar-logo2 {
+    width: 40px;
+
+  }
+
+  .main-navbar-buttons {
+    margin-top: 0;
+    margin-right: 3px;
+
+  }
+
+  .main-animated-button1 {
+
+    padding: 2px !important;
+    min-width: 40px !important;
+    font-size: 9px !important;
+  }
+}
+
+@keyframes changeColor {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: white;
+  }
+}

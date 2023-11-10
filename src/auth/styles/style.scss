@@ -1,0 +1,211 @@
+.textField{
+  width: 20vw;
+}
+.phoneContainer{
+ max-width: 300px;
+ width: 100%;
+ margin: 0 auto ;
+}
+.PhoneInput {
+  width: 20vw !important;
+}
+.css-27e0h5-MuiGrid-root>.MuiGrid-item {
+  padding-top: 70px !important;
+}
+.react-tel-input {
+  margin: auto !important;
+  display: flex;
+  margin-top: 15px !important;
+}
+.comebg{
+  height: 50px;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, red 0%,white 100%);
+  margin-top: auto;
+}
+
+.login_card {
+  margin-bottom: 11px !important;
+  // margin-left: 100%;
+  margin-top: -20px;
+  position: relative;
+  text-align: center !important;
+  padding-top: 30px !important;
+  padding-right: 4% !important;
+  padding-left: 4% !important;
+  padding-bottom: 30px !important;
+  // background-image:url('../../images/static/bggg.jpeg');
+}
+.naveen_image{
+  width: 250px;
+  height: 400px;
+  margin-top:50px;
+}
+.image-margin-auto{
+  margin-top: auto !important;
+
+}
+.login-background {
+  // background-image: url("https://firebasestorage.googleapis.com/v0/b/qubi7-portal.appspot.com/o/web%2Fcorporte%20vending.png?alt=media&token=c90fd9f4-a0aa-44f7-a862-2a83e8124866");
+  
+  // background-image: url("../../images/common/loginbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 180px;
+
+  // : center;
+}
+
+.login_heading {
+  margin-top: 10px !important;
+  font-size: 100% !important;
+  text-align: center !important;
+}
+
+.drawer_img {
+  width: 130px !important;
+  height: 130px !important;
+  margin: auto !important;
+}
+
+.profile-name {
+  text-align: center;
+}
+
+.drawer_text {
+  text-decoration: none !important;
+  color: black !important;
+  font-size: 16px !important;
+}
+
+.drawer_icons {
+  font-size: 16px !important;
+}
+
+.drawer_expansion_summary {
+  text-decoration: none;
+  background-color: white;
+  padding-left: 18;
+  font-size: 16px;
+}
+
+.table_cells {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.unit_details_add_btn {
+  // float: right;
+  display: inline-block;
+  text-align: right !important;
+}
+
+.unit_details_title {
+  display: inline-block;
+}
+.btn_float {
+  float: right;
+}
+.reg_btn{
+  margin-bottom: 12px;
+}
+.form-center {
+  margin-left: 35%;
+  margin-top: 5%;
+  position: relative;
+}
+.phonenumber {
+  justify-self: center;
+  width: 100% !important;
+  
+}
+.passwordclass{
+  height:20px;
+}
+
+.login-button{
+  max-width: 300px !important;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 900px){
+  
+  .naveen_image{
+    width: 230px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+ 
+
+  
+  
+}
+
+@media only screen and (max-width: 550px) {
+  .login_card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+ 
+  .naveen_image{
+    width: 190px;
+    height: 300px;
+   
+  }
+  
+  .comebg{
+    font-size: 20px;
+  }
+
+}
+@media only screen and (max-width: 320px) {
+ 
+  .naveen_image{
+    width: 130px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 150px;
+   
+  }
+ 
+  .comebg{
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (min-width: 551px) and (max-width: 890px) {
+  .login_card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 1280px) {
+  .login-background { 
+    // background-image: url("../../images/common/login.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 180px;
+    // : center;
+  }
+}
+
+@media only screen and (min-width: 890px) and (max-width: 1478px) {
+  .login_card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+

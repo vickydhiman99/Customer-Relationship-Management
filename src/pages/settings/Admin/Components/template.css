@@ -1,0 +1,139 @@
+.temp-tablist{
+    display: flex !important;
+    gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    
+}
+.tab-temp{
+    border: none;
+    outline: none;
+    padding-bottom: 15px;
+}
+.tab-temp:focus{
+    color:#CC542E;
+    border-bottom: 1px solid #CC542E;
+}
+
+.use-btn{
+    border:1px solid lightgray;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.card-hov{
+    text-align: center;
+}
+.card-hov:hover{
+
+}
+
+
+
+
+
+
+
+
+
+
+.card {
+    width: 200px;
+    height: 260px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: white;
+    position: relative;
+    transition: 0.4s ease-out;
+    
+  }
+  .card:hover {
+    transform: translateY(20px);
+  }
+  .card:hover:before {
+    opacity: 1;
+  }
+  .card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: rgba(171, 166, 166, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+  }
+  .card .info {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+  }
+  .card .info button {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    margin-top: 4%;
+    margin-left: 6%;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s ease;
+    text-align: center;
+  }
+  .card .info button:hover {
+    background: rgb(90, 91, 92);
+    color: white;
+  }
+
+  .wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+
+  .upload-file {
+    color: blue;
+    /* margin-left: 10px !important; */
+    text-align: center;
+    font-size: 10px !important;
+    white-space: nowrap;
+  
+  }
+  .box-upload {
+    width: 70px;
+    height: 70px;
+    margin-left: 7%;
+    border: 1px solid grey;
+    background-color: #FCFCFC;
+  }
+  
+  .label-upload {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    position: relative;
+  
+  }

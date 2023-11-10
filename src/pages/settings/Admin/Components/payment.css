@@ -1,0 +1,36 @@
+.pay-tab{
+    border: none !important;
+    outline: none !important;
+    background-color: none ;
+    white-space: nowrap;
+    color: gray;
+}
+.pay-tab:hover{
+    background-color: none !important;
+}
+.pay-tab:focus{
+    background-color: transparent !important;
+    margin-top: 0px;
+    color: black;
+    border-bottom: 2px solid crimson !important;
+    transform: scale(1.1);
+    transition: .2s;
+}
+.tab-plus{
+    /* width: 100%; */
+    display: flex;
+    gap: 420px;
+    align-items: center !important;
+    justify-content: space-between !important;
+    cursor: pointer !important;
+}
+
+
+/* .add-hov{
+color:white;
+
+}
+.add-hov:hover{
+
+    color:gray;
+} */

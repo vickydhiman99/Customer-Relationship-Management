@@ -1,0 +1,14 @@
+.main-list{
+    display: flex;
+    gap: 20px;
+}
+
+
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: white;
+}

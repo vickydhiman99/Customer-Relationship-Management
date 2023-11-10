@@ -1,0 +1,32 @@
+
+  
+  a.social {
+    margin: 0 5px;
+    transition: transform 250ms;
+    display: inline-block;
+    font-size: 10px;
+  }
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  
+  a.youtube {
+    /* color: #eb3223; */
+    color: white;
+  }
+  
+  a.facebook {
+    /* color: #4968ad; */
+    color: white;
+  }
+  
+  a.twitter {
+    /* color: #49a1eb; */
+    color: white;
+  }
+  
+  a.instagram {
+    /* color: black; */
+    color: white;
+  }

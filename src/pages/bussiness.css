@@ -1,0 +1,54 @@
+ul{
+    list-style-type: none;
+}
+h1{
+    color: rgb(71, 71, 200);
+}
+h3{
+    color: rgb(123, 135, 59);
+}
+.navbar{
+    height: 70px;
+    color: white;
+   
+
+}
+.header{
+    height:100px;
+    background-color:white;
+    position:relative;
+    display: flex;
+}
+.header .navbar{
+    height:50px;
+    display:flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 50px;
+}
+.navbar ul li{
+    display: inline-block;
+    justify-content: space-around;
+    font-size: 19px;
+    padding: 0 20px;
+    cursor: pointer;
+    line-height: 80px;
+    align-items: center;
+    background-color: rgb(61, 61, 195)
+
+}
+.img1{
+    height: 40px;
+    
+}
+img{
+    height: 120px;
+}
+.img2{
+    height:30px;
+}
+.srch{
+    height:10px;
+    padding-top: 5px;
+    width: 10px;
+}

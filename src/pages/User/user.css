@@ -1,0 +1,7 @@
+.bg{
+    background-image: url('../image//BackgroundTaskplay\ 1.png');
+    width: 100%;
+    height: 90vh;
+    background-position: center center;
+    background-size: cover;
+}

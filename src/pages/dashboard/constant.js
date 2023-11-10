@@ -1,0 +1,2 @@
+// export const SET_BATTERY="SET_BATTERY";
+// export const SET_BATTERY_DETAILS="SET_BATTERY_DETAILS";

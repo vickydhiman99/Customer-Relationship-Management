@@ -1,0 +1,39 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #AA3F1D !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #AA3F1D !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #AA3F1D !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #AA3F1D !important;
+}
+.css-dsuxgy-MuiTableCell-root {
+    color: gray !important;
+}
+
+/* .table-row{
+    display:table-row !important;
+} */
+
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+   
+   padding: unset !important;
+   
+}
+
+
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+  
+    padding: unset !important;
+}
+
+
+
+Button {
+    /* display: -webkit-inline-box; */
+    text-transform: capitalize !important;
+}

@@ -1,0 +1,175 @@
+.css-5e7oo3-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: #3D3B3B !important;
+}
+
+
+.cardddddd {
+    width: 108px;
+    border-radius: 4px;
+    border: 1px solid var(--primary-colour-g-9, #E0E0E0) !important;
+    background: var(--secondary-color-shades-s-10, #FFF1EC) !important;
+}
+
+.cardddd {
+    margin-left: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid var(--primary-colour-g-9, #E0E0E0) !important;
+    background: var(--secondary-color-shades-s-10, #FFF1EC) !important;
+}
+
+.total {
+    color: var(--primary-colour-g-1, #3D3B3B);
+    text-align: center;
+    /* S3 */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.react-tabs__tab {
+
+    padding: unset !important;
+}
+
+
+.Create {
+    color: var(--grey-g-1, #2E384D) !important;
+    /* Heading/H2 */
+    font-family: Montserrat !important;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    /* margin-top: 5px  !important; */
+    /* margin-left: 30px  !important; */
+
+}
+
+.Name {
+    color: var(--primary-colour-g-1, #3D3B3B);
+    /* BodyTextParagraph/B2 */
+    font-family: Lato !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    margin-left: 30px !important;
+}
+
+.buttnn {
+    margin-top: 30px;
+    color: white !important;
+    border-radius: 4px;
+    border: none !important;
+    height: 40px;
+    width: 150px;
+    background: var(--PrimaryColor, #3D3B3B);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+
+.react-tabs__tab {
+    border: none !important;
+    color: black !important;
+    padding: .5em !important;
+}
+
+.react-tabs__tab--selected {
+    background-color: #EEECFE !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab-list-btn {
+    font-size: 16px !important;
+    color: gray !important;
+    /* border:1px solid lightgray !important; */
+    background-color: white;
+    /* padding: 10px; */
+    /* gap:70 !important; */
+    text-transform: capitalize !important;
+}
+
+.tab-list-btn:focus {
+    font-size: 16px !important;
+    color: black !important;
+    border: 1px solid lightgray;
+    background-color: gainsboro !important;
+}
+
+.react-tabs__tab {
+    display: inline-block;
+    /* border: 1px solid transparent; */
+    /* border-bottom: none; */
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    /* padding: 6px 12px; */
+    cursor: pointer;
+}
+
+
+.react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    /* padding: 6px 12px; */
+    cursor: pointer;
+}
+
+
+.apexcharts-toolbar {
+    display: none !important;
+}
+
+#chart {
+    width: 630px !important;
+}
+
+.main-tab {
+
+    display: flex;
+    gap: 20px;
+}
+
+.tabii {
+    color: gray;
+    font-weight: 600;
+    outline: none;
+}
+
+.tabii:focus {
+    color: #AA3F1D;
+    border-bottom: 2px solid #AA3F1D;
+}
+
+.tablee::-webkit-scrollbar {
+    display: none !important;
+}
+
+
+/* .tab-list-btn:focus{
+    background-color: lightgray;
+    color: black;
+} */

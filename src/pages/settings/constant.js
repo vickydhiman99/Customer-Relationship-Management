@@ -1,0 +1,48 @@
+export const VIEW_ALL_CATEGORY="VIEW_ALL_CATEGORY";
+export const VIEW_ALL_BANK="VIEW_ALL_BANK";
+export const VIEW_ALL_BANK_BY_ID="VIEW_ALL_BANK_BY_ID";
+export const VIEW_ALL_UPI="VIEW_ALL_UPI";
+export const VIEW_ALL_UPI_BY_ID="VIEW_ALL_UPI_BY_ID";
+//BANK SEETER CONSTANT
+export const SET_BANK_NAME="SET_BANK_NAME";
+export const SET_ACCOUNT_NUMBER="SET_ACCOUNT_NUMBER";
+export const SET_ACCOUNT_HOLDER_NAME="SET_ACCOUNT_HOLDER_NAME";
+export const SET_BRANCH="SET_BRANCH";
+export const SET_IFSC_CODE="SET_IFSC_CODE";
+export const SET_BANK_ID="SET_BANK_ID";
+
+//UPI SETTER CONSTANT 
+export const SET_UPI_ID="SET_UPI_ID";
+export const SET_QR_ID="SET_QR_ID";
+
+//Category
+export const CATEGORY="CATEGORY";
+
+//Category setter
+export const SET_CATEGORY_ID="SET_CATEGORY_ID";
+export const SET_CATEGORY_NAME="SET_CATEGORY_NAME";
+
+//Templet
+export const VIEW_ALL_WHATSAPP_TEMPLET="VIEW_ALL_WHATSAPP_TEMPLET";
+//Templet setter
+export const SET_TEMP_LINK="SET_TEMP_LINK";
+export const SET_TEMP_NAME="SET_TEMP_NAME";
+export const SET_TEMP_DESC="SET_TEMP_DESC";
+
+//Details
+export const VIEW_ALL_PERSONAL_DETAILS="VIEW_ALL_PERSONAL_DETAILS";
+//Details setter
+export const SET_DETAILS_LINK="SET_DETAILS_LINK";
+export const SET_DETAILS_NAME="SET_DETAILS_NAME";
+export const SET_DETAILS_DESC="SET_DETAILS_DESC";
+
+//SMS
+export const VIEW_ALL_SMS="VIEW_ALL_SMS";
+//Sms setter
+export const SET_SMS_LINK="SET_SMS_LINK";
+export const SET_SMS_NAME="SET_SMS_NAME";
+export const SET_SMS_DESC="SET_SMS_DESC";
+
+
+
+

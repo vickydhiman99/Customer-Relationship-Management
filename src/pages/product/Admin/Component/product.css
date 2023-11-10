@@ -1,0 +1,132 @@
+.product-continer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.product-name {
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    margin: 10px 0px 0px 57px !important;
+}
+
+.product-search {
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    /* height: 40px; */
+    padding: 0px 0px 0px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px !important;
+    border: 1px solid var(--primary-colour-g-7, #B8B8B8) !important;
+    background: #FFF;
+    margin: 1% 2% 0% 50% !important;
+    width: 20% !important;
+
+}
+
+.add-product {
+    display: flex;
+    height: 50px;
+    padding: 11px 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background: var(--secondary-color-shades-s-4, #AA3F1D);
+    cursor: pointer;
+    
+}
+.acation-product{
+    flex-direction: row;
+    display: flex;
+    margin-top: 0.5%;
+    justify-content: space-between;
+    gap: 20px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.colorname {
+    color: #000;
+
+    /* Subheading/S2 */
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 31.2px; */
+}
+
+.coloradd {
+    /* position: absolute; */
+    width: 150px;
+    /* height: 48px; */
+    /* left: 46px; */
+    right: 86px;
+    color: white;
+    /* top: 1007px; */
+
+    /* background: #DCE4E5; */
+    background: linear-gradient(91.75deg, #2B2971 0.93%, #10A7D9 110.51%);
+
+    border-radius: 800px !important;
+}
+
+.btns {
+    /* position: absolute; */
+    /* width: 150px; */
+    /* height: 48px; */
+    /* left: 46px; */
+    /* right: 86px; */
+    color: rgb(248, 248, 248);
+    /* top: 1007px; */
+
+    /* background: #DCE4E5; */
+    background: linear-gradient(91.75deg, #2B2971 0.93%, #10A7D9 110.51%);
+
+    border-radius: 5px !important;
+}
+
+.colorhead {
+    box-sizing: border-box;
+
+
+    width: 1357px;
+
+
+    background: linear-gradient(91.75deg, #D9D9D9 0.93%, #FFFFFF 110.51%);
+    border: 0.830269px solid #4D4949;
+}
+
+.colorbody {
+
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 1346px;
+    height: 21px;
+
+
+    /* background: #DCE4E5; */
+    background:
+        linear-gradient(91.75deg, #EBF1F2 0.93%, #FFFFFF 110.51%);
+
+    border: 0.830269px solid #C0ADAD;
+}

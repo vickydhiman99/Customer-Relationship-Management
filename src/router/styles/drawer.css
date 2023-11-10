@@ -1,0 +1,114 @@
+/* .active div{
+    background-color: #ed5066;
+} */
+
+.name{
+  /* background: linear-gradient(91.75deg, #2B2971 0.93%, #10A7D9 110.51%); */
+  /* background: "linear-gradient(91.75deg, #121435 0.93%, #F7DBBA 110.51%)"; */
+  background: linear-gradient(91.75deg, #121435 0.93%, #F7DBBA 110.51%);
+  /* margin-left: 50px; */
+  height: 5vh
+  ;
+}
+
+.listItemText {
+  position: relative;
+  right: -10px;
+}
+.drawer_icon{
+  color: #000000;
+   font-size: large !important;
+   /* padding-bottom: 20px; */
+}
+/* .expand_icon{
+  color: #000000;
+  font-size: large !important; 
+  margin-left: 40%;
+} */
+.drawertext{
+  color: #000000 !important;
+  font-size: 15px !important;
+  margin: 5px;
+}
+.subdrawertext{
+  color: #000000 !important;
+  font-size: 15px !important;
+  justify-content: left !important;
+  /* width: 80%; */
+}
+
+.container:active{
+  background-color: aqua;
+
+}
+.container:focus{
+  background-color: #000000;
+}
+.logout-button1 {
+  /* position: absolute; */
+  width: 150px;
+  /* height: 48px; */
+  /* left: 46px; */
+  color: white;
+  /* top: 1007px; */
+  
+  /* background: #DCE4E5; */
+  /* background: linear-gradient(91.75deg, #2B2971 0.93%, #10A7D9 110.51%); */
+  background: linear-gradient(91.75deg, #121435 0.93%, #F7DBBA 110.51%);
+
+  border-radius: 800px !important;
+}
+.header-container {
+  background-color: #f0f0f0;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+.selected {
+  /* color: #ffffff; Change text color when selected */
+  background: linear-gradient(91.75deg, #121435 0.93%, #F7DBBA 110.51%);
+
+  font-weight: bold;
+}
+
+.selected   .drawertext .drawer_icon  {
+  color: #ffffff !important; /* Change icon color when selected */
+}
+
+.drawer_img{
+  height: 70px !important;
+  width: 70px !important;
+}
+.drawer_img2{
+  height: 50px !important;
+  width: 50px !important;
+}
+
+
+
+@media screen and (min-width: 764px) and (max-width: 1023px) {
+  .logout-button1 {
+    width: 92px;
+    margin-top: -5px !important;
+    margin-left: 18px !important;
+  }
+}
+@media screen and (min-width: 392px) and (max-width: 550px) {
+  .logout-button1 {
+    margin-left: -82px !important;
+    width: 92px;
+    margin-top: -5px !important;
+  }
+}
